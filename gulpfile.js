@@ -74,7 +74,7 @@ gulp.task('build:js', () => {
 gulp.task('watch', ['build'], () => {
   browsersync.init({
     notify: false,
-    port: 9000,
+    port: 9999,
     server: {
       baseDir: [path.join('examples', 'pages'), path.join('examples', 'assets'), 'dist'],
       directory: true
